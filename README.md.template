@@ -32,3 +32,13 @@ Whois lookup of each hop:
 ```
 {{ whois_txt }}
 ```
+
+Dig each hop:
+```
+{{ dig_hops_txt }}
+```
+
+Ping each hop:
+```
+{{ ping_hops_txt }}
+```

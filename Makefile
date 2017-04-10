@@ -1,7 +1,8 @@
 URL=google.com
+OUT=README.md
 IP=((1?[0-9][0-9]?|2[0-4][0-9]|25[0-5])\.){3}(1?[0-9][0-9]?|2[0-4][0-9]|25[0-5])
 
-README.md: README.md.template ping.txt dig.txt traceroute.txt ip.traceroute.txt whois.txt dig.hops.txt ping.hops.txt
+$(OUT): README.md.template ping.txt dig.txt traceroute.txt ip.traceroute.txt whois.txt dig.hops.txt ping.hops.txt
 	url=$(URL) \
 	ping_txt=$$(cat ping.txt) \
 	dig_txt=$$(cat dig.txt) \
@@ -9,7 +10,7 @@ README.md: README.md.template ping.txt dig.txt traceroute.txt ip.traceroute.txt 
 	ip_traceroute_txt=$$(cat ip.traceroute.txt) \
 	whois_txt=$$(cat whois.txt) \
 	dig_hops_txt=$$(cat dig.hops.txt) \
-	ping_hops_txt=$$(cat ping_hops_txt) \
+	ping_hops_txt=$$(cat ping.hops.txt) \
 	mo $< | tee $@
 
 ping.txt:
@@ -32,11 +33,11 @@ whois.txt: ip.traceroute.txt
 
 # reverse dns lookup each ip in route
 dig.hops.txt: ip.traceroute.txt
-	cat $< | while read ip; do dig -x $$ip; done | tee $@
+	cat $< | while read ip; do dig -x $$ip; done | uniq | tee $@
 
 # ping each ip in route
 ping.hops.txt: ip.traceroute.txt
 	cat $< | while read ip; do ping -c 1 $$ip; done | sed '/^$$/d' | tee $@
 
 clean:
-	- rm ping.txt dig.txt traceroute.txt ip.traceroute.txt whois.txt dig.hops.txt ping.hops.txt
+	- rm ping.txt dig.txt traceroute.txt ip.traceroute.txt whois.txt dig.hops.txt ping.hops.txt $(OUT)

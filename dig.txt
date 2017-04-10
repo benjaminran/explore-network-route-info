@@ -2,17 +2,17 @@
 ; <<>> DiG 9.8.3-P1 <<>> google.com
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47118
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21277
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
 
 ;; QUESTION SECTION:
 ;google.com.			IN	A
 
 ;; ANSWER SECTION:
-google.com.		236	IN	A	216.58.195.238
+google.com.		102	IN	A	216.58.194.174
 
-;; Query time: 14 msec
+;; Query time: 25 msec
 ;; SERVER: 192.168.0.1#53(192.168.0.1)
-;; WHEN: Sun Apr  9 22:29:57 2017
+;; WHEN: Mon Apr 10 01:03:10 2017
 ;; MSG SIZE  rcvd: 44
 

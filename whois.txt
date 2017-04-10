@@ -62,70 +62,6 @@ OrgAbusePhone:  +1-650-253-0000
 OrgAbuseEmail:  network-abuse@google.com
 OrgAbuseRef:    https://whois.arin.net/rest/poc/ABUSE5250-ARIN
 ---
-NetRange:       108.170.192.0 - 108.170.255.255
-CIDR:           108.170.192.0/18
-NetName:        GOOGLE
-NetHandle:      NET-108-170-192-0-1
-Parent:         NET108 (NET-108-0-0-0-0)
-NetType:        Direct Allocation
-OriginAS:       AS15169
-Organization:   Google Inc. (GOGL)
-RegDate:        2012-02-07
-Updated:        2012-02-07
-Ref:            https://whois.arin.net/rest/net/NET-108-170-192-0-1
-OrgName:        Google Inc.
-OrgId:          GOGL
-Address:        1600 Amphitheatre Parkway
-City:           Mountain View
-StateProv:      CA
-PostalCode:     94043
-Country:        US
-RegDate:        2000-03-30
-Updated:        2017-01-28
-Ref:            https://whois.arin.net/rest/org/GOGL
-OrgTechHandle: ZG39-ARIN
-OrgTechName:   Google Inc
-OrgTechPhone:  +1-650-253-0000
-OrgTechEmail:  arin-contact@google.com
-OrgTechRef:    https://whois.arin.net/rest/poc/ZG39-ARIN
-OrgAbuseHandle: ABUSE5250-ARIN
-OrgAbuseName:   Abuse
-OrgAbusePhone:  +1-650-253-0000
-OrgAbuseEmail:  network-abuse@google.com
-OrgAbuseRef:    https://whois.arin.net/rest/poc/ABUSE5250-ARIN
----
-NetRange:       108.170.192.0 - 108.170.255.255
-CIDR:           108.170.192.0/18
-NetName:        GOOGLE
-NetHandle:      NET-108-170-192-0-1
-Parent:         NET108 (NET-108-0-0-0-0)
-NetType:        Direct Allocation
-OriginAS:       AS15169
-Organization:   Google Inc. (GOGL)
-RegDate:        2012-02-07
-Updated:        2012-02-07
-Ref:            https://whois.arin.net/rest/net/NET-108-170-192-0-1
-OrgName:        Google Inc.
-OrgId:          GOGL
-Address:        1600 Amphitheatre Parkway
-City:           Mountain View
-StateProv:      CA
-PostalCode:     94043
-Country:        US
-RegDate:        2000-03-30
-Updated:        2017-01-28
-Ref:            https://whois.arin.net/rest/org/GOGL
-OrgAbuseHandle: ABUSE5250-ARIN
-OrgAbuseName:   Abuse
-OrgAbusePhone:  +1-650-253-0000
-OrgAbuseEmail:  network-abuse@google.com
-OrgAbuseRef:    https://whois.arin.net/rest/poc/ABUSE5250-ARIN
-OrgTechHandle: ZG39-ARIN
-OrgTechName:   Google Inc
-OrgTechPhone:  +1-650-253-0000
-OrgTechEmail:  arin-contact@google.com
-OrgTechRef:    https://whois.arin.net/rest/poc/ZG39-ARIN
----
 NetRange:       216.58.192.0 - 216.58.223.255
 CIDR:           216.58.192.0/19
 NetName:        GOOGLE
@@ -147,16 +83,16 @@ Country:        US
 RegDate:        2000-03-30
 Updated:        2017-01-28
 Ref:            https://whois.arin.net/rest/org/GOGL
-OrgTechHandle: ZG39-ARIN
-OrgTechName:   Google Inc
-OrgTechPhone:  +1-650-253-0000
-OrgTechEmail:  arin-contact@google.com
-OrgTechRef:    https://whois.arin.net/rest/poc/ZG39-ARIN
 OrgAbuseHandle: ABUSE5250-ARIN
 OrgAbuseName:   Abuse
 OrgAbusePhone:  +1-650-253-0000
 OrgAbuseEmail:  network-abuse@google.com
 OrgAbuseRef:    https://whois.arin.net/rest/poc/ABUSE5250-ARIN
+OrgTechHandle: ZG39-ARIN
+OrgTechName:   Google Inc
+OrgTechPhone:  +1-650-253-0000
+OrgTechEmail:  arin-contact@google.com
+OrgTechRef:    https://whois.arin.net/rest/poc/ZG39-ARIN
 ---
 Comcast Business Communications, LLC COMCAST-44 (NET-23-30-206-0-1) 23.30.206.0 - 23.30.207.255
 Comcast Cable Communications, LLC CBC-CM-4 (NET-23-30-0-0-1) 23.30.0.0 - 23.31.255.255
@@ -168,9 +104,6 @@ Comcast Cable Communications, LLC IBONE-CCCS-5 (NET-66-208-228-0-3) 66.208.228.0
 ---
 Comcast Cable Communications, LLC JUMPSTART-2 (NET-68-80-0-0-1) 68.80.0.0 - 68.87.255.255
 Comcast Cable Communications, Inc. COMCAST-8 (NET-68-86-128-0-1) 68.86.128.0 - 68.86.255.255
----
-Comcast Cable Communications, LLC JUMPSTART-2 (NET-68-80-0-0-1) 68.80.0.0 - 68.87.255.255
-Comcast Cable Communications, Inc. COMCAST-16 (NET-68-86-64-0-1) 68.86.64.0 - 68.86.127.255
 ---
 Comcast Cable Communications, LLC JUMPSTART-2 (NET-68-80-0-0-1) 68.80.0.0 - 68.87.255.255
 Comcast Cable Communications, Inc. COMCAST-16 (NET-68-86-64-0-1) 68.86.64.0 - 68.86.127.255

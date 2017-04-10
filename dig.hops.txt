@@ -1,0 +1,171 @@
+
+; <<>> DiG 9.8.3-P1 <<>> -x 108.170.237.119
+;; global options: +cmd
+;; connection timed out; no servers could be reached
+
+; <<>> DiG 9.8.3-P1 <<>> -x 108.170.237.9
+;; global options: +cmd
+;; connection timed out; no servers could be reached
+
+; <<>> DiG 9.8.3-P1 <<>> -x 108.170.242.225
+;; global options: +cmd
+;; connection timed out; no servers could be reached
+
+; <<>> DiG 9.8.3-P1 <<>> -x 108.170.243.1
+;; global options: +cmd
+;; connection timed out; no servers could be reached
+
+; <<>> DiG 9.8.3-P1 <<>> -x 216.58.195.238
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2172
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;238.195.58.216.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+238.195.58.216.in-addr.arpa. 66390 IN	PTR	sfo03s06-in-f14.1e100.net.
+238.195.58.216.in-addr.arpa. 66390 IN	PTR	sfo03s06-in-f14.1e100.net.
+238.195.58.216.in-addr.arpa. 66390 IN	PTR	sfo03s06-in-f238.1e100.net.
+238.195.58.216.in-addr.arpa. 66390 IN	PTR	sfo03s06-in-f238.1e100.net.
+
+;; Query time: 11 msec
+;; SERVER: 192.168.0.1#53(192.168.0.1)
+;; WHEN: Sun Apr  9 23:45:54 2017
+;; MSG SIZE  rcvd: 143
+
+
+; <<>> DiG 9.8.3-P1 <<>> -x 23.30.206.102
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49953
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;102.206.30.23.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+102.206.30.23.in-addr.arpa. 7200 IN	PTR	as15169-3-c.529bryant.ca.ibone.comcast.net.
+
+;; Query time: 19 msec
+;; SERVER: 192.168.0.1#53(192.168.0.1)
+;; WHEN: Sun Apr  9 23:45:54 2017
+;; MSG SIZE  rcvd: 100
+
+
+; <<>> DiG 9.8.3-P1 <<>> -x 66.208.228.70
+;; global options: +cmd
+;; connection timed out; no servers could be reached
+
+; <<>> DiG 9.8.3-P1 <<>> -x 68.86.249.73
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48622
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;73.249.86.68.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+73.249.86.68.in-addr.arpa. 7200	IN	PTR	te-0-7-0-3-sur03.scotts.ca.sfba.comcast.net.
+
+;; Query time: 32 msec
+;; SERVER: 192.168.0.1#53(192.168.0.1)
+;; WHEN: Sun Apr  9 23:46:09 2017
+;; MSG SIZE  rcvd: 100
+
+
+; <<>> DiG 9.8.3-P1 <<>> -x 68.86.86.146
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48074
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;146.86.86.68.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+146.86.86.68.in-addr.arpa. 7200	IN	PTR	hu-0-11-0-1-pe02.529bryant.ca.ibone.comcast.net.
+
+;; Query time: 13 msec
+;; SERVER: 192.168.0.1#53(192.168.0.1)
+;; WHEN: Sun Apr  9 23:46:09 2017
+;; MSG SIZE  rcvd: 104
+
+
+; <<>> DiG 9.8.3-P1 <<>> -x 68.86.86.26
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24190
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;26.86.86.68.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+26.86.86.68.in-addr.arpa. 6288	IN	PTR	hu-0-10-0-0-pe02.529bryant.ca.ibone.comcast.net.
+
+;; Query time: 17 msec
+;; SERVER: 192.168.0.1#53(192.168.0.1)
+;; WHEN: Sun Apr  9 23:46:09 2017
+;; MSG SIZE  rcvd: 103
+
+
+; <<>> DiG 9.8.3-P1 <<>> -x 68.86.87.14
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28001
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;14.87.86.68.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+14.87.86.68.in-addr.arpa. 7200	IN	PTR	hu-0-12-0-1-pe02.529bryant.ca.ibone.comcast.net.
+
+;; Query time: 17 msec
+;; SERVER: 192.168.0.1#53(192.168.0.1)
+;; WHEN: Sun Apr  9 23:46:09 2017
+;; MSG SIZE  rcvd: 103
+
+
+; <<>> DiG 9.8.3-P1 <<>> -x 68.86.90.93
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8537
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;93.90.86.68.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+93.90.86.68.in-addr.arpa. 6676	IN	PTR	be-33651-cr01.sunnyvale.ca.ibone.comcast.net.
+
+;; Query time: 29 msec
+;; SERVER: 192.168.0.1#53(192.168.0.1)
+;; WHEN: Sun Apr  9 23:46:09 2017
+;; MSG SIZE  rcvd: 100
+
+
+; <<>> DiG 9.8.3-P1 <<>> -x 69.139.199.205
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17631
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;205.199.139.69.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+205.199.139.69.in-addr.arpa. 6338 IN	PTR	be-221-ar01.santaclara.ca.sfba.comcast.net.
+
+;; Query time: 37 msec
+;; SERVER: 192.168.0.1#53(192.168.0.1)
+;; WHEN: Sun Apr  9 23:46:09 2017
+;; MSG SIZE  rcvd: 101
+
+
+; <<>> DiG 9.8.3-P1 <<>> -x 96.120.89.117
+;; global options: +cmd
+;; connection timed out; no servers could be reached

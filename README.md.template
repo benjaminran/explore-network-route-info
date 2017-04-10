@@ -1,0 +1,34 @@
+# nets
+Exploring the internet
+
+## Overview
+Use `make url=amazon.com` to regenerate this readme with information about the path taken through the network to reach the target machine (the _amazon.com_ server in this example). You'll need [mo](https://github.com/tests-always-included/mo) (and `make`, `ping`, `traceroute`, `dig`, and `whois`).
+
+## Exploration
+
+Examining {{ url }}.
+
+Ping it:
+```
+{{ ping_txt }}
+```
+
+Dig it:
+```
+{{ dig_txt }}
+```
+
+The full `traceroute` output:
+```
+{{ traceroute_txt }}
+```
+
+IP of each hop:
+```
+{{ ip_traceroute_txt }}
+```
+
+Whois lookup of each hop:
+```
+{{ whois_txt }}
+```

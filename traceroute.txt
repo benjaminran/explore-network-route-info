@@ -1,0 +1,15 @@
+ 1  96.120.89.117 (96.120.89.117)  14.755 ms  12.714 ms  12.611 ms
+ 2  te-0-7-0-3-sur03.scotts.ca.sfba.comcast.net (68.86.249.73)  15.549 ms  18.081 ms  15.948 ms
+ 3  be-221-ar01.santaclara.ca.sfba.comcast.net (69.139.199.205)  24.610 ms  20.480 ms  15.392 ms
+ 4  be-33651-cr01.sunnyvale.ca.ibone.comcast.net (68.86.90.93)  45.985 ms  51.201 ms  25.264 ms
+ 5  hu-0-10-0-0-pe02.529bryant.ca.ibone.comcast.net (68.86.86.26)  16.013 ms
+    hu-0-12-0-1-pe02.529bryant.ca.ibone.comcast.net (68.86.87.14)  43.925 ms
+    hu-0-11-0-1-pe02.529bryant.ca.ibone.comcast.net (68.86.86.146)  30.679 ms
+ 6  as15169-3-c.529bryant.ca.ibone.comcast.net (23.30.206.102)  32.585 ms
+    66.208.228.70 (66.208.228.70)  11.212 ms
+    as15169-3-c.529bryant.ca.ibone.comcast.net (23.30.206.102)  21.556 ms
+ 7  108.170.243.1 (108.170.243.1)  13.971 ms
+    108.170.242.225 (108.170.242.225)  17.063 ms *
+ 8  108.170.237.119 (108.170.237.119)  94.725 ms  90.183 ms
+    108.170.237.9 (108.170.237.9)  302.622 ms
+ 9  sfo03s06-in-f238.1e100.net (216.58.195.238)  281.241 ms  1582.672 ms  466.468 ms
